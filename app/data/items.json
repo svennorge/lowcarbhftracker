@@ -11,7 +11,14 @@
     "units": 
     {
         "gramm": "",
-        "mililiter": ""
+        "mililiter": "",
         "pieces":""
+    },
+    "kind":
+    {
+        "vagan":"",
+        "vegetarian": "",
+        "noGluten":"",
+        "noLactose":""
     }
 }

@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title></title>
-    </head>
-    <body>
-       <h1>Some headline</h1> 
-    </body>
-    <script>
-    </script>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="loginDialog">
+        <h1 id="userMessage">Some headline</h1>
+        <input type="text" id="loginName" placeholder="UserName@domain.com">
+        <input type="password" id="loginPW" value="default">
+        <button class="button" type="button" id="okay" onclick="helloMessage()">Okay</button>
+        <button class="button" type="button" onclick="showPW()">showPW</button>
+        <button class="button" type="button" onclick="changeHeader()">Change</button>
+    <p>
+        <a href="pwreset.html">forgotten PW</a>
+    </p>  
+    </div>
+</body>
+<script src="js/main.js"></script>
+
 </html>
