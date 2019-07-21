@@ -1,0 +1,17 @@
+{
+    "Id": "1",
+    "name": "name",
+    "Basic": 
+    {
+        "carb": "",
+        "fat": "",
+        "fibre": "",
+        "salt": ""
+    },
+    "units": 
+    {
+        "gramm": "",
+        "mililiter": ""
+        "pieces":""
+    }
+}
